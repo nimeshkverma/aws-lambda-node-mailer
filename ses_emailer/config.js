@@ -1,13 +1,9 @@
 var config = {};
 
-// SMTP Credentials and Connection Details
-config.SMTP = {
-        host: "your_host_name",
-        port: 25,
-        auth: {
-            user: "your_user_name",
-            pass: "your_password"
-        }
+// SES Credentials and Connection Details
+config.SES = {
+        accessKeyId: 'your_accessKeyId',
+        secretAccessKey: 'your_secretAccessKey'
     }
     // Mapping if SchemaName and Paths of template and schema
 config.schemaMapping = {
