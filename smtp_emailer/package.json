@@ -1,0 +1,32 @@
+{
+  "name": "smtp_emailer",
+  "version": "1.0.0",
+  "description": "Lambda Emailer using SMTP protocol",
+  "main": "exports.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimeshkverma/aws-lambda-node-mailer.git"
+  },
+  "keywords": [
+    "Node",
+    "AWS",
+    "Lammbda",
+    "SMTP"
+  ],
+  "author": "Nimesh Kiran Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimeshkverma/aws-lambda-node-mailer/issues"
+  },
+  "homepage": "https://github.com/nimeshkverma/aws-lambda-node-mailer#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "fs": "0.0.2",
+    "jsonschema": "^1.1.0",
+    "nodemailer": "^2.4.1",
+    "nodemailer-smtp-transport": "^2.5.0"
+  }
+}
